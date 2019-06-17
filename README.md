@@ -4,6 +4,10 @@
 
 ## Usage
 
+``` import.py
+import jpfund
+```
+
 ``` From_Morningstar.py
 jpfund.Morningstar("2017092908").get()
 ```
