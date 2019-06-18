@@ -4,7 +4,7 @@ from io import StringIO
 import requests
 import pandas as pd
 
-from . import fund_base
+from . import __fund_base as fund_base
 
 
 class Morningstar(fund_base.FundBase):

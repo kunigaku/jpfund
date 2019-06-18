@@ -1,2 +1,2 @@
-from jpfund.morningstar import Morningstar
-from jpfund.emaxis import EMaxis
+from jpfund.__morningstar import Morningstar
+from jpfund.__emaxis import EMaxis

@@ -5,7 +5,7 @@ import requests
 import pandas as pd
 from pyquery import PyQuery as pq
 
-from . import fund_base
+from . import __fund_base as fund_base
 
 
 class EMaxis(fund_base.FundBase):
