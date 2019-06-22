@@ -28,7 +28,7 @@ class Nikko(fund_base.FundBase):
             def my_parser(date): return pd.datetime.strptime(date, "%Y/%m/%d")
             return pd.read_csv(StringIO(response.text),
                                names=('Date', 'Price',
-                                      'The day before ratio', 'Distribution', 'Total assets', 'Gross'),
+                                      'Change', 'Distribution', 'Total assets', 'Gross'),
                                header=1,
                                date_parser=my_parser,
                                index_col=0)
